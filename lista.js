@@ -49,13 +49,14 @@ btnConfirmaLista.on('click', function() {
         //monta carrinho
         btnCarrinho.append(`<li class="li-lista-carrinho">
                                 <div class="card-list-carrinho  d-flex justify-content-around row align-items-center">
+                                    <input class="col-1 my-input-check redut" id="checkB${i}" type="checkbox">   
                                     <span class="col-3 sp-nome-carrinho redut">${nomeItem}</span>                                    
                                     <span class="input-preco-carrinho redut"></span>
                                     <input class="col-2 form-control input-carrinho-editavel-redut input-preco-carrinho redut" id="preco${i}" type="number" value="">
                                     <span class="input-quant-carrinho redut"></span>
                                     <input class="col-1 form-control input-carrinho-editavel-redut redut" id="quantFinal${i}" type="number" value="${quantItem}">
                                     <span class="col-1 material-symbols-outlined material-symbols-outlined-carrinho redut" id="remove${i}">variable_remove</span>
-                                    <input class="col-1 my-input-check redut" id="checkB${i}" type="checkbox">
+                                    
                                 </div>
                             </li>`)
 
@@ -91,14 +92,13 @@ btnNovoItem.on('click', function() {
         
 btnCarrinho.append(`<li class="li-lista-carrinho">
                                 <div class="card-list-carrinho  d-flex justify-content-around row align-items-center">
+                                    <input class="col-1 my-input-check redut" id="checkB${idItemAdd}" type="checkbox">
                                     <span class="col-3 sp-nome-carrinho redut">${nomeItem}</span>                                    
                                     <span class="input-preco-carrinho redut"></span>
                                     <input class="col-2 form-control input-carrinho-editavel-redut input-preco-carrinho redut" id="preco${idItemAdd}" type="number" value="">
                                     <span class="input-quant-carrinho redut"></span>
                                     <input class="col-1 form-control input-carrinho-editavel-redut redut" id="quantFinal${idItemAdd}" type="number" value="${quantItem}">
-                                    <span class="col-1 material-symbols-outlined material-symbols-outlined-carrinho redut" id="remove${idItemAdd}">variable_remove</span>
-                                    <input class="col-1 my-input-check redut" id="checkB${idItemAdd}" type="checkbox">
-                                </div>
+                                    <span class="col-1 material-symbols-outlined material-symbols-outlined-carrinho redut" id="remove${idItemAdd}">variable_remove</span>                                </div>
                             </li>`
 );
 
