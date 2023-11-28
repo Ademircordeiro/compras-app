@@ -122,6 +122,10 @@ input {
     display: block !important;    
 }
 
+.carrinho {
+    padding-left: 0 1important;
+}
+
 .input-carrinho-editavel {
     width: 30px;
     -moz-appearance: textfield;
