@@ -129,6 +129,7 @@ input {
 .input-carrinho-editavel {
     width: 30px;
     -moz-appearance: textfield;
+    font-size: 14px !important;
 }
 .input-carrinho-editavel::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -136,7 +137,7 @@ input {
 
 .input-preco-carrinho::after {
     content: 'R$';
-    padding: 5px;
+    padding: 1px;
     color: #495057;
     font-size: 1rem;
     font-weight: 900;
@@ -146,7 +147,7 @@ input {
 
 .input-quant-carrinho::after {
     content: 'x';
-    padding: 5px;
+    padding: 1px;
     color: #495057;
     font-size: 1rem;
     font-weight: 900;
