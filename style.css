@@ -130,6 +130,7 @@ input {
     width: 30px;
     -moz-appearance: textfield;
     font-size: 14px !important;
+    padding: 0rem 0.75rem !important;
 }
 .input-carrinho-editavel::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -237,4 +238,9 @@ input {
     font-weight: 900;
     line-height: 1;
     color: #495057;
+}
+
+.redut {
+    padding-left: 3px;
+    padding-right: 3px;
 }
