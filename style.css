@@ -249,3 +249,11 @@ input {
     padding-left: 3px !important;
     padding-right: 3px !important;
 }
+
+.quant-item {
+    font-size: 1rem !important;
+}
+
+.quant-novo-item {
+    font-size: 1rem !important;
+}
