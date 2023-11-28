@@ -49,7 +49,6 @@ btnConfirmaLista.on('click', function() {
         //monta carrinho
         btnCarrinho.append(`<li class="li-lista-carrinho">
                                 <div class="card-list-carrinho  d-flex justify-content-around row align-items-center">
-                                    // <span class="col-1 material-symbols-outlined">list</span>                                   
                                     <span class="col-3 sp-nome-carrinho">${nomeItem}</span>                                    
                                     <span class="input-preco-carrinho"></span>
                                     <input class="col-2 form-control input-carrinho-editavel input-preco-carrinho" id="preco${i}" type="number" value="">
@@ -92,7 +91,6 @@ btnNovoItem.on('click', function() {
         
 btnCarrinho.append(`<li class="li-lista-carrinho">
                                 <div class="card-list-carrinho  d-flex justify-content-around row align-items-center">
-                                    // <span class="col-1 material-symbols-outlined">list</span>                                   
                                     <span class="col-3 sp-nome-carrinho">${nomeItem}</span>                                    
                                     <span class="input-preco-carrinho"></span>
                                     <input class="col-2 form-control input-carrinho-editavel input-preco-carrinho" id="preco${idItemAdd}" type="number" value="">
