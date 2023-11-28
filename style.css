@@ -175,6 +175,7 @@ input {
     max-width: 32rem;
     margin: 2px;
     padding: 2px 4px 2px 2px;
+    border-left: 5px solid #d2eb00;
 }
 
 .sp-nome-carrinho {
@@ -201,6 +202,7 @@ input {
     align-items: center;
     border-radius: 5px;
     float: right;
+    margin-bottom: 6px;
 }
 
 .sp-carrinho::before {
