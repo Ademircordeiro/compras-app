@@ -202,7 +202,7 @@ input {
     align-items: center;
     border-radius: 5px;
     float: right;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 
 .sp-carrinho::before {
