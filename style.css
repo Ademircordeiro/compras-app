@@ -1,0 +1,233 @@
+:root {
+    --cor-pri: #6645ef;
+    --cor-sec: #9972f4;
+    --cor-ter: #cc9ffa;
+    --cor-qua: hsl(300, 100%, 90%);
+    --cor-branco: #eef0f3ff;
+    --bg-card-list: #84b6eb;
+    --cor-font-m: #495057;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--cor-font-m);
+}
+
+body {
+    background-color: #fbf5f5 !important;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/basket-full-of-groceries.png);
+    background-size: cover;
+    opacity: 0.15; /* Valor de opacidade para a imagem de fundo */
+    z-index: -1; /* Coloque atrás de todo o conteúdo */
+}
+
+.titulo {
+    padding: 5px;
+    background-color: #84b6eb;
+    font-size: 22px;
+    color: var(--cor-font-m);
+}
+
+
+.titulo-tag {
+    width: 10rem;
+    background-color: #84b6eb;
+    border-radius: 5px;
+}
+
+.sec-corpo {
+    margin-top: 20px;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px
+}
+.form-group {
+    margin: 0 0 2rem 2rem !important;
+}
+
+input {
+    width: 10rem !important;
+}
+
+.li-lista {
+    padding: 0.375rem 0.75rem;
+    background-color: #84b6eb;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    list-style: none;
+    max-width: 21rem;
+    margin: 2px;
+    padding: 2px 4px 2px 2px;
+}
+
+.card-list {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+    color: #495057;
+    width: inherit;
+    max-width: 19rem;
+    margin: 0 !important;
+}
+
+.material-symbols-outlined, .sp-quant, .form-check-label {
+    line-height: 1.5;
+    background-color: #84b6eb;
+    color: #495057;
+}
+.material-symbols-outlined {
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.sp-quant:before {
+    content: 'x';
+    padding: 5px;
+}
+
+.my-input-check {
+    width: 18px !important;
+    height: 18px !important;
+    margin: 0 !important;
+}
+
+.sp-cb, .sp-nome, .sp-quant {
+    background-color: var(--bg-card-list) !important;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+    color: #495057;
+}
+
+.form-carrinho {
+    display: none !important;    
+}
+
+.form-carrinho-ligado {
+    display: block !important;    
+}
+
+.input-carrinho-editavel {
+    width: 30px;
+    -moz-appearance: textfield;
+}
+.input-carrinho-editavel::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-preco-carrinho::after {
+    content: 'R$';
+    padding: 5px;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+}
+
+.input-quant-carrinho::after {
+    content: 'x';
+    padding: 5px;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+}
+
+.card-list-carrinho {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+    color: #495057;
+    width: inherit;
+    max-width: 31rem;
+    margin: 0 !important;
+}
+
+.li-lista-carrinho {
+    padding: 0.375rem 0.75rem;
+    background-color: #84b6eb;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    list-style: none;
+    max-width: 32rem;
+    margin: 2px;
+    padding: 2px 4px 2px 2px;
+}
+
+.sp-nome-carrinho {
+    background-color: var(--bg-card-list) !important;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #84b6eb;
+    color: #495057;
+}
+
+.material-symbols-outlined-carrinho {
+    color: #e32100;
+    text-align: center;
+}
+
+.carrinho-compras{
+    background-color: #4CAF50;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    float: right;
+}
+
+.sp-carrinho::before {
+    content: 'R$  ';
+}
+.sp-carrinho {
+    color: #fff;
+    background-color: #4CAF50 !important;
+    margin: auto;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.material-symbols-outlined-carrinho-compras {
+    color: #fff !important;
+    background-color: #4CAF50 !important;
+}
+
+.desliga-inputs-inicial {
+    display: none;
+}
+
+.titulo-btns {
+    width: 9rem;
+    border: 1px solid #84b6eb;
+    border-radius: 21px;
+}
+.sp-h2 {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+    color: #495057;
+}
