@@ -132,6 +132,12 @@ input {
     font-size: 14px !important;
     padding: 0rem 0.75rem !important;
 }
+
+.input-carrinho-editavel-redut {
+    
+    padding: 0rem 0.75rem !important;
+}
+
 .input-carrinho-editavel::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
