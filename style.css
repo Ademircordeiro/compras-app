@@ -123,7 +123,7 @@ input {
 }
 
 .carrinho {
-    padding-left: 0 1important;
+    padding-left: 0px !important;
 }
 
 .input-carrinho-editavel {
